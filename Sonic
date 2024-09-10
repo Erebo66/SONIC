@@ -3,13 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title> Sonic: O Filme</title>
+    <meta name="description" content="Avaliação de HTMN é CSS">
+    <meta name="keywords" content="front-end, html, css">
+    <meta name="author" content="Elyab Lucas, Rafael Lima, Lucas Gabriel">
 </head>
 <body>
+    <!--Elyab-->
   <div>
     <video loop autoplay muted>
         <source src="./video/Sonic The Hedgehog (2020) - New Official Trailer - Paramount Pictures.mp4" type="video/mp4">
     </video>
   </div>
+
+  <header>
+    <nav></nav>
+  </header>
+  <!--/Elyab-->
 </body>
 </html>
