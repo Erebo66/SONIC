@@ -1,8 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
     <title> Sonic: O Filme</title>
     <meta name="description" content="Avaliação de HTMN é CSS">
     <meta name="keywords" content="front-end, html, css">
@@ -15,10 +14,48 @@
         <source src="./video/Sonic The Hedgehog (2020) - New Official Trailer - Paramount Pictures.mp4" type="video/mp4">
     </video>
   </div>
-
   <header>
-    <nav></nav>
+    <nav>
+        <img src="./img/download.jfif" alt="">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Stor</a></li>
+            <li><a href="https://www.youtube.com/watch?v=OsyVeiW3CZ8">Trailer</a></li>
+        </ul>
+        
+        <ul>
+            <li><a href="#"><img src="./img/logo-yotuber.png" alt="logo-yotuber"></a></li>
+            <li><a href="#"><img src="./img/pmg-ista.jpg" alt="logo-istra"></a></li>
+            <li><a href="#"><img src="./img/png-clipart-tiktok-white.png" alt="logo-tikto"></a></li>
+        </ul>
+    </nav>
   </header>
+  <div class="conteudo">
+    <img src="./img/Sonic_the_Hedgehog_logo_(2020).png" alt="">
+    <p>Baseado no videojogo da Sega, sucesso à escala global, SONIC – O FILME conta a história do ouriço mais rápido do mundo a partir do momento em que este chega à sua nova casa – o planeta Terra. Nesta comédia e aventura live-action, Sonic e o seu novo melhor amigo Tom (James Marsden, da série de TV “Westworld”) juntam-se para defender o planeta do génio do mal, o Dr. Robotnik (Jim Carrey), e dos seus planos para domínio do mundo. Um filme para toda a família que conta ainda com Tika Sumpter e Ben Schwartz (voz de Sonic).</p>
+  </div>
+<footer>
+    <div class="cards">
+        <div class="card">
+            <img src="./img/daef4fafd3177b302411ab3997c56d2f.jpg" alt="">
+            <h1>Sonic the Hedgehog</h1>
+            <p>Clássico mascote da Sega, está em alta ultimamente com o lançamento nos cinemas de Sonic: O Filme, que já arrecadou mais de US$ 210 milhões (em torno de R$ 925 milhões). O personagem, criado em 1991 para exibir as qualidades do Mega Drive e competir com Mario, tem uma trajetória cheia de curiosidades. </p>
+        </div>
+        <div class="card">
+            <h2 class="titulo">Como Sonic foi criado?</h2>
+            <p class="text">O personagem surgiu em uma competição interna entre funcionários da Sega para encontrar um novo mascote para o Mega Drive capaz de bater de frente com o mascote Mario da Nintendo. O mascote anterior da Sega, Alex Kidd, não parecia ter combinado tanto com o sistema e seu primeiro game, Alex Kidd in the Enchated Castle, não havia emplacado. O artista Naoto Ohshima foi o vencedor ao criar uma estranha mistura de Gato Félix com Mickey Mouse, um ouriço azul que chamou na época de Mr. Needlemouse e viria a se tornar Sonic. <br>
+            Outro cocriador de Sonic foi o programador Yuji Naka da Sega que ficou encarregado de programar a jogabilidade do personagem, auxiliado também pelo designer Hirokazu Yasuhara. Em uma entrevista para a revista Nintendo Power 260 de novembro de 2010, Naka comentou que a inspiração para um gameplay cheio de velocidade veio de jogar várias vezes a fase 1-1 de Super Mario Bros do Nintendo 8 Bits. Por ser uma fase que o jogador sempre precisava passar, mesmo que pretendesse pular fases com as Warp Zones, cada vez Naka tentava jogá-la mais rápido.</p>
+        </div>
+        <div class="card">
+            <h2 class="titulo">Que animal é o Sonic?</h2>
+            <p class="text">A maioria dos jogadores está acostumado a ouvir que Sonic é um porco-espinho. No entanto, ele é na verdade um ouriço – "hedgehog" em inglês. As duas famílias de animais são semelhantes em sua forma de proteção, na qual seus corpos são cobertos por espinhos para se defender de predadores. Apesar disso, ambas as famílias são completamente distintas e não possuem ligação.</p>
+        </div>
+        <div class="card">
+            <h2 class="titulo"> O que significa Sonic?</h2>
+            <p class="text">Ao traduzir do inglês, "Sonic" é o equivalente a "Sônico", propriedade relativa a ondas sonoras ou velocidade do som. Inicialmente, a ideia de Yuji Naka era que o nome do personagem fizesse referência à velocidade da luz, como "LS" (Light Speed em inglês) e "Raisupi" (Raito Supiido em japonês), porém os apelidos não deram muito certo. Foi quando alguém da equipe sugeriu a referência à velocidade do som com Sonic.</p>
+        </div>
+    </div>
+</footer>
   <!--/Elyab-->
 </body>
 </html>
