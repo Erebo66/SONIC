@@ -49,3 +49,10 @@ header img{
     transform: translateY(-5px);
     cursor: pointer;
 }
+
+.footer{
+    z-index: -1;
+    background-color: blue;
+    padding: 20px;
+    text-align: center;
+}
