@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="imagem/x-icon" href="./assets/x-icon.png">
+    <link rel="stylesheet" href="./css/global.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="background">
+        <video loop autoplay muted>
+            <source src="./assets/background.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div id="app">
+        <header>
+            <img src="./assets/jogo.png" alt="">
+
+            <ul class="navigation">
+                <li>
+                    <a href="#" class="navigation__link">Home</a>
+                </li>
+                <li>
+                    <a href="#" class="navigation__link">Story</a>
+                </li>
+                <li>
+                    <a href="#" class="navigation__link">Trailer</a>
+                </li>
+            </ul>          
+        </header>
+
+        <main>
+            <div class="man__info">
+                <img src="./assets/Sonic the Hedgehog (film) logo EN.png" width="650px" alt="">
+
+                <h3>A história do Sonic nos filmes e nos videogames gira em torno do ouriço azul 
+                    super-rápido, que se torna um herói para impedir que o cientista louco Dr.Ivo 
+                    "Eggman" Robotnik domine o mundo.No filme de 2020, Sonic se junta a seu novo 
+                    amigo humano Tom Wachowski para derrotar o Dr. Robotnik. O filme mostra Sonic 
+                    se adaptando à vida na Terra e tentando impedir que o vilão capture Sonic e use 
+                    seus poderes para dominar o mundo.</h3>
+
+            </div>
+
+            <img src="./assets/sonicpinteres.png" width="1000px" alt="">
+        </main>
+    </div>
+
+    <div class="footer">
+        <h3>Direitos Autorais reservados - 2024</h3>
+
+        <div class="navigation__social">
+            <a href=""><img src="./assets/instagram (1).png" alt="" width="40px"></a>
+            <a href=""><img src="./assets/tik-tok (1).png" alt="" width="40px"></a>
+            <a href=""><img src="./assets/youtube (1).png" alt="" width="40px"></a>
+        </div>
+    </div>
+</body>
+</html>
