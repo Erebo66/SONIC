@@ -51,8 +51,9 @@ header img{
 }
 
 .footer{
-    z-index: -1;
-    background-color: blue;
-    padding: 20px;
-    text-align: center;
+   z-index: -1;
+    background-color: rgb(20, 159, 240);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 1.5rem 3.5rem;
 }
