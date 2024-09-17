@@ -1,0 +1,62 @@
+}
+.main{
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  width: 100%;
+  max-width: 1440px;
+  margin: auto;
+}
+.card1 {
+  display: relative;
+  flex-direction: column;
+  width: 30%;
+  padding: 20px;
+  margin: 1%;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+  top:20px;
+  margin-left:760px;
+}
+.card2 {
+  display: relative;
+  flex-direction: column;
+  width: 30%;
+  padding: 20px;
+  margin: 1%;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+  top:20px;
+  margin-left:520px;
+}
+.card3{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  padding: 20px;
+  margin: 1%;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+  top: 20px;
+  margin-left:760px;
+}
+.card4{
+  display: relative;
+  flex-direction: column;
+  width: 30%;
+  padding: 20px;
+  margin: 1%;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+  top: 20px;
+  margin-left:520px;
+  }
+
