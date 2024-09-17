@@ -35,6 +35,7 @@ header img{
     display: flex;
     align-items: center;
     column-gap: 24px;
+    column-gap: 48px;
 }
 
 .navigation__social svg{
