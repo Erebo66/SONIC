@@ -1,61 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="imagem/x-icon" href="./assets/x-icon.png">
     <link rel="stylesheet" href="./css/global.css">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&family=Playpen+Sans:wght@100..800&display=swap" rel="stylesheet">
+
+    <title>Sonic: O Filme</title>
 </head>
-<body>
-    <div id="background">
-        <video loop autoplay muted>
-            <source src="./assets/background.mp4" type="video/mp4">
+<body><!--Contém todo o conteúdo visível da página.-->
+    <div id="background"><!--Uma tag que serve como um contêiner genérico para agrupar outros elementos dentro de um documento HTML.-->
+        <video loop autoplay muted><!--é utilizado para incorporar vídeos diretamente em páginas web, permitindo que os usuários assistam a conteúdos de vídeo sem a necessidade de plugins externos, como o Adobe Flash-->
+            <source src="./assets/background.mp4" type="video/mp4"><!--no HTML é utilizado para especificar múltiplas fontes de mídia para elementos como <audio>, <video> e <picture>.-->
         </video>
     </div>
 
     <div id="app">
-        <header>
-            <img src="./assets/jogo.png" alt="">
+        <header><!--É uma tag semântica que define o cabeçalho de um documento ou de uma seção específica.-->
+            <img src="./assets/jogo.png" alt=""><!--Insere uma imagem.-->
 
-            <ul class="navigation">
-                <li>
-                    <a href="#" class="navigation__link">Home</a>
+            <ul class="navigation"><!--Cria uma lista não ordenada (com marcadores).-->
+                <li><!--Define um item de lista.-->
+                    <a href="https://www.sega.com/pt-br" class="navigation__link">Home</a><!--Criar um hyperlink.-->
                 </li>
                 <li>
-                    <a href="#" class="navigation__link">Story</a>
+                    <a href="http://127.0.0.1:5500/story.html" class="navigation__link">Story</a>
                 </li>
                 <li>
-                    <a href="#" class="navigation__link">Trailer</a>
+                    <a href="https://www.youtube.com/watch?v=OsyVeiW3CZ8" class="navigation__link">Trailer</a>
                 </li>
             </ul>          
         </header>
 
-        <main>
+        <main><!--É uma tag semântica introduzida no HTML5, que define o conteúdo principal de um documento ou aplicação.-->
             <div class="man__info">
-                <img src="./assets/Sonic the Hedgehog (film) logo EN.png" width="650px" alt="">
+                <img src="./assets/logo.sonic.png" width="650px">
 
                 <h3>A história do Sonic nos filmes e nos videogames gira em torno do ouriço azul 
                     super-rápido, que se torna um herói para impedir que o cientista louco Dr.Ivo 
                     "Eggman" Robotnik domine o mundo.No filme de 2020, Sonic se junta a seu novo 
                     amigo humano Tom Wachowski para derrotar o Dr. Robotnik. O filme mostra Sonic 
                     se adaptando à vida na Terra e tentando impedir que o vilão capture Sonic e use 
-                    seus poderes para dominar o mundo.</h3>
+                    seus poderes para dominar o mundo.</h3><!--Define cabeçalhos.-->
 
             </div>
 
-            <img src="./assets/sonicpinteres.png" width="1000px" alt="">
+            <img src="./assets/sonic.correndo.png" width="1000px" alt="">
         </main>
     </div>
 
     <div class="footer">
-        <h3>Direitos Autorais reservados - 2024</h3>
+        <h3>Direitos Autorais Reservados - 2024</h3>
 
         <div class="navigation__social">
-            <a href=""><img src="./assets/instagram (1).png" alt="" width="40px"></a>
-            <a href=""><img src="./assets/tik-tok (1).png" alt="" width="40px"></a>
-            <a href=""><img src="./assets/youtube (1).png" alt="" width="40px"></a>
+            <a href="https://www.youtube.com/@SonictheHedgehog"><img src="./assets/instagram.png" alt="" width="40px"></a>
+            <a href="https://www.tiktok.com/@segaofficial?_t=8pmB6VCQQtx&_r=1"><img src="./assets/tiktok.png" width="40px"></a>
+            <a href="https://www.youtube.com/@SEGA_West"><img src="./assets/youtube.png" alt="" width="40px"></a>
         </div>
     </div>
 </body>
