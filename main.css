@@ -8,3 +8,10 @@ main{
     width: 100%;
     max-width: 1440px;
 }
+
+main h3{
+    font-family: "Playpen Sans", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
