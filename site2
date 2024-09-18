@@ -1,71 +1,66 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br"><!--especifica a linguagem do país da pagina-->
 <heder>
-    <meta charset="UTF-8">
-    <meta name="X-UA_Compatiblr" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Meu primeiro site">
-    <meta name="keywords" content="site2 sonic">
+    <meta charset="UTF-8"><!--codificação-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--adapitar para outros aparelhos-->
+    <meta name="description" content="site2"><!--descrição da pagina-->
     <meta name="author" content="Lucas Gabriel">
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/style.css"><!--link para ligar a pasta do  CSS a pagina HTML-->
     <title>story</title>
 </heder>
 <body>
 
-<div id="fundo">
-    <img src="/fundo oficial.webp"  width="2000" height="990">
-</div>
+<div id="fundo"><!--aqui abre minha div, adicionei uma (div) com o atributo (id) para declaração do estilo específico da imagem de fundo que será visto no codigo css. -->
+    <img src="/fundo oficial.jpg"  width="2000" height="990"><!--adicionei (img) para inserir a imagem na pagina HTML, com o atributo (src) para dar caminho ao link da imagem, e adicionei um (width="2000") para ajustar a largura da imagem, e mais (height="990") para ajustar a altura da imagem.-->
+</div><!--aqui fecha minha div-->
 
-<main>
+<main><!--aqui abre o (main), adicionei (main) para especificar o comteudo principal da pagina que é os cards 1,2,3,4-->
     
- <div class="card1">
-    <div>
-        <h2>Sonic o ouriço</h2>
+ <div class="card1"><!--aqui abre minha div, adicionei uma (div) com o atributo (class) para a estilização do card1--> 
+
+        <h2>Sonic o ouriço</h2><!--titulo do primairo card com a tag h2-->
         <p>Clássico mascote da Sega, está em alta ultimamente com o lançamento nos cinemas de Sonic: O Filme, 
             que já arrecadou mais de US$ 210 milhões (em cerca de R$ 925 milhões). O personagem, criado em 1991 
-            para exibir as qualidades do Mega Drive e compete com Mario, tem uma trajetória cheia de curiosidades.</p> 
-        <img src="/anelgiratorio.gif" alt="">
-    </div>
+            para exibir as qualidades do Mega Drive e compete com Mario, tem uma trajetória cheia de curiosidades.
+        </p><!--conteudo do card feito por Elyab, da tag <h2> a tag </p>--> 
+        <img src="/anelgiratorio.gif" alt=""><!--adicionei (img) para inserir a gif no card, com o atributo (src) para dar caminho ao link da imagem, -->
  </div>
 
- <div class="card2">
-    <div>
-        <h2>Como Sonic foi criado?</h2>
+ <div class="card2"><!--aqui abre minha div, adicionei uma (div) com o atributo (class) para a estilização do card2--> 
+
+        <h2>Como Sonic foi criado?</h2><!--titulo do segundo card com a tag h2-->
         <p>Sonic foi criado pela Sega em uma competição interna para encontrar um novo mascote que pudesse
              competir com Mario, da Nintendo. O artista Naoto Ohshima desenhou um ouriço azul, inicialmente 
              chamado de Mr. Needlemouse, que se tornou Sonic. Yuji Naka programou a jogabilidade, inspirada 
              na velocidade ao jogar a fase 1-1 de Super Mario Bros.
-            </p>
-            <img src="/anelgiratorio.gif" alt="">
-    </div> 
+            </p><!--conteudo do card feito por Elyab da tag <h2> a tag </p>--> 
+            <img src="/anelgiratorio.gif" alt=""><!--adicionei (img) para inserir a gif no card, com o atributo (src) para dar caminho ao link da imagem, -->
  </div>
 
- <div class="card3">
-    <div>
-        <h2>Paradoxico</h2>
+ <div class="card3"><!--aqui abre minha div, adicionei uma (div) com o atributo (class) para a estilização do card33--> 
+
+        <h2>Paradoxico</h2><!--titulo do terceiro card com a tag h2-->
         <p>O filme do Sonic de 2020 teve aspectos paradoxais que chamaram atenção. O design inicial do Sonic 
             foi criticado por ser realista e estranho, levando os produtores a redesenhar o personagem para 
             um visual mais fiel aos jogos. Jim Carrey, como Dr. Robotnik, trouxe um estilo exagerado que 
             contrastava com o tom inicial do filme. Esses elementos, apesar de paradoxais, contribuíram 
             para o sucesso do filme, bem recebido por fãs e críticos.
-        </p>
-        <img src="/anelgiratorio.gif" alt="">
-    </div>
+        </p><!--conteudo do card feito por Lucas Gabriel da tag <div class="3"> a tag </div>--> 
+        <img src="/anelgiratorio.gif" alt=""><!--adicionei (img) para inserir a gif no card, com o atributo (src) para dar caminho ao link da imagem, -->
  </div>
 
- <div class="card4">
-    <div>
-        <h2>curiosidades</h2>
+ <div class="card4"><!--aqui abre minha div, adicionei uma (div) com o atributo (class) para a estilização do card4--> 
+
+        <h2>curiosidades</h2><!--titulo do quarto card com a tag h2-->
         <p>O tênis de Sonic foi desenvolvido pela Puma e The Shoe Surgeon para imitar o par do videogame. 
             O filme arrecadou US$ 300 milhões mundialmente e resgata elementos do universo dos jogos.
             Masato Nakamura, compositor dos jogos, foi creditado. Jim Carrey teve liberdade criativa
              em suas cenas. O lançamento foi adiado para comemorar os 60 anos da Sega, inicialmente 
              previsto para 2018, mas lançado em 2020. A estreia mundial foi em 25 de janeiro de 2020,
               e no Brasil, em 13 de fevereiro de 2020.
-        </p>
-        <img src="/anelgiratorio.gif" alt="">
-    </div>
+        </p><!--conteudo do card feito por Lucas Gabriel da tag <div class="3"> a tag </div>--> 
+        <img src="/anelgiratorio.gif" alt=""><!--adicionei (img) para inserir a gif no card, com o atributo (src) para dar caminho ao link da imagem, -->
  </div>
-</main>
+</main><!--aqui fecha o (main)-->
 </body>
 </html>
